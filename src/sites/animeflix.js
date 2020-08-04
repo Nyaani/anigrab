@@ -137,7 +137,7 @@ async function getQualities(url) {
         extractor: 'universal',
         referer: url,
     });
-    return { qualities };
+    return qualities;
 }
 
 module.exports = {

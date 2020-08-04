@@ -124,7 +124,7 @@ async function getQualities(url) {
         referer: url,
     });
 
-    return { qualities };
+    return qualities;
 }
 
 module.exports = {

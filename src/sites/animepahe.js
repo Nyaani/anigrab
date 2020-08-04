@@ -230,7 +230,7 @@ async function getQualities(url) {
         break;
     }
 
-    return { qualities };
+    return qualities;
 }
 
 module.exports = {
